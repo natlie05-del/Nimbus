@@ -135,13 +135,23 @@ Possible future enhancements for Nimbus include:
 * 🔐 User authentication
 * ✏️ Rich text editing
 
-## 👩‍💻 Project
+## 📌 Project Details
+
+**Made by - Natlie Pinto**
 
 **Project Name:** Nimbus
+
 **Platform:** Android
+
 **Framework:** Flutter
+
 **Version:** 1.0.2
 
+## 📱 Download
+
+Download the latest Android APK:
+
+[Nimbus v1.0.2 APK] https://github.com/natlie05-del/Nimbus/releases/tag/v1.0.2
 ---
 
 Made with Flutter 💙
