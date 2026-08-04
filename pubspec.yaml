@@ -1,0 +1,56 @@
+name: notes_app
+description: "Nimbus — a simple, modern notes app with local storage, search, sorting, pinning, and dark mode."# The following line prevents the package from being accidentally published to
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  share_plus: ^12.0.1
+  shared_preferences: ^2.5.3
+
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/nimbus_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icons/nimbus_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/nimbus_icon.png"
+
+flutter_native_splash:
+  color: "#FAF9F6"
+  image: assets/icons/nimbus_splash.png
+
+  android: true
+  ios: false
+
+  android_12:
+    color: "#FAF9F6"
+    image: assets/icons/nimbus_splash.png
+    icon_background_color: "#FAF9F6"
