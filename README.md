@@ -63,31 +63,7 @@ Make sure you have the following installed:
 * Android Studio or another Flutter-compatible IDE
 * Android Emulator or a physical Android device
 
-### Installation
 
-Clone the repository:
-
-```bash
-git clone <your-github-repository-url>
-```
-
-Navigate to the project directory:
-
-```bash
-cd notes_app
-```
-
-Install the required dependencies:
-
-```bash
-flutter pub get
-```
-
-Run the application:
-
-```bash
-flutter run
-```
 
 ## 📦 Release
 
